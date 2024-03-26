@@ -625,17 +625,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1642613945200072605, guid: 6f52b946693e54048af74f5cd6ba49f8, type: 3}
-      propertyPath: xRange
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 1642613945200072605, guid: 6f52b946693e54048af74f5cd6ba49f8, type: 3}
-      propertyPath: verticalInput
+    - target: {fileID: 8422011227236461430, guid: 6f52b946693e54048af74f5cd6ba49f8, type: 3}
+      propertyPath: m_UseGravity
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1642613945200072605, guid: 6f52b946693e54048af74f5cd6ba49f8, type: 3}
-      propertyPath: horizontalInput
-      value: 10
+    - target: {fileID: 8422011227236461430, guid: 6f52b946693e54048af74f5cd6ba49f8, type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8422011227236461430, guid: 6f52b946693e54048af74f5cd6ba49f8, type: 3}
+      propertyPath: m_ImplicitTensor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8422011227236461430, guid: 6f52b946693e54048af74f5cd6ba49f8, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8724729793336415293, guid: 6f52b946693e54048af74f5cd6ba49f8, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8724729793336415293, guid: 6f52b946693e54048af74f5cd6ba49f8, type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -758,6 +770,10 @@ MonoBehaviour:
   - {fileID: 5086372268639271143, guid: 1fb63c9aece3fa94485d957a8cff7cfe, type: 3}
   - {fileID: 3132147117273290807, guid: e6324e35965842443ba1d51e2374cba4, type: 3}
   - {fileID: 3650239228017593665, guid: d2af5c524c804044b983e7845caa6d65, type: 3}
+  sideAnimals:
+  - {fileID: 3650239228017593665, guid: d2af5c524c804044b983e7845caa6d65, type: 3}
+  - {fileID: 3132147117273290807, guid: e6324e35965842443ba1d51e2374cba4, type: 3}
+  - {fileID: 5086372268639271143, guid: 1fb63c9aece3fa94485d957a8cff7cfe, type: 3}
 --- !u!4 &2097126990
 Transform:
   m_ObjectHideFlags: 0
@@ -784,6 +800,10 @@ PrefabInstance:
     - target: {fileID: 2743954422588590555, guid: 114a43a991ba66f4fa233f23fe2d3a74, type: 3}
       propertyPath: m_Name
       value: Banana
+      objectReference: {fileID: 0}
+    - target: {fileID: 2743954422588590555, guid: 114a43a991ba66f4fa233f23fe2d3a74, type: 3}
+      propertyPath: m_TagString
+      value: GameController
       objectReference: {fileID: 0}
     - target: {fileID: 3832463111651223589, guid: 114a43a991ba66f4fa233f23fe2d3a74, type: 3}
       propertyPath: m_LocalPosition.x
@@ -823,6 +843,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3832463111651223589, guid: 114a43a991ba66f4fa233f23fe2d3a74, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4255793843842380077, guid: 114a43a991ba66f4fa233f23fe2d3a74, type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4255793843842380077, guid: 114a43a991ba66f4fa233f23fe2d3a74, type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8648523869883531521, guid: 114a43a991ba66f4fa233f23fe2d3a74, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8648523869883531521, guid: 114a43a991ba66f4fa233f23fe2d3a74, type: 3}
+      propertyPath: m_ProvidesContacts
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
